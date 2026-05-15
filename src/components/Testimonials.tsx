@@ -53,7 +53,7 @@ const stats = [
   },
 
   {
-    value: '500+',
+    value: '5000+',
     label: 'Happy Guests',
   },
 
