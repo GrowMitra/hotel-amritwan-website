@@ -205,7 +205,7 @@ export default function Footer() {
 
               <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-5">
                 <div className="text-3xl font-bold text-amber-400 mb-1">
-                  500+
+                  5000+
                 </div>
                 <div className="text-sm text-white/60">
                   Happy Guests & Families
