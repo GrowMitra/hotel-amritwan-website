@@ -274,30 +274,33 @@ export default function Testimonials() {
             </div>
 
             {/* Stats Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-              {stats.map((item) => (
-                <div
-                  key={item.label}
-                  className="group relative overflow-hidden rounded-[28px] border border-white/10 bg-black/20 p-8 text-center hover:-translate-y-1 transition-all duration-500"
-                >
-                  {/* Shine */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent opacity-60" />
+<div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+  {stats.map((item) => (
+    <div
+      key={item.label}
+      className="group relative overflow-hidden rounded-[22px] sm:rounded-[28px] border border-white/10 bg-black/20 p-5 sm:p-8 text-center hover:-translate-y-1 transition-all duration-500"
+    >
+      {/* Shine */}
+      <div className="absolute inset-0 bg-gradient-to-br from-white/10 via-transparent to-transparent opacity-60" />
 
-                  {/* Glow */}
-                  <div className="absolute -top-16 -right-16 w-32 h-32 bg-amber-400/10 blur-3xl rounded-full group-hover:bg-amber-400/20 transition-all duration-500" />
+      {/* Glow */}
+      <div className="absolute -top-16 -right-16 w-32 h-32 bg-amber-400/10 blur-3xl rounded-full group-hover:bg-amber-400/20 transition-all duration-500" />
 
-                  <div className="relative z-10">
-                    <div className="text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500 mb-3">
-                      {item.value}
-                    </div>
+      <div className="relative z-10">
+        
+        {/* Number */}
+        <div className="text-2xl sm:text-4xl md:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-300 to-yellow-500 mb-2 sm:mb-3 leading-none">
+          {item.value}
+        </div>
 
-                    <div className="text-white/60 text-sm uppercase tracking-[0.15em]">
-                      {item.label}
-                    </div>
-                  </div>
-                </div>
-              ))}
-            </div>
+        {/* Label */}
+        <div className="text-[10px] sm:text-sm text-white/60 uppercase tracking-[0.12em] sm:tracking-[0.15em] leading-relaxed">
+          {item.label}
+        </div>
+      </div>
+    </div>
+  ))}
+</div>
           </div>
         </motion.div>
       </div>
