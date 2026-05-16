@@ -22,13 +22,13 @@ const details = [
   {
     icon: Users,
     label: 'Guest Capacity',
-    value: '200 – 250 Guests',
+    value: '350 – 500 Guests',
   },
 
   {
     icon: BadgeIndianRupee,
-    label: 'Hall Charges',
-    value: '₹2,000 / Day',
+    label: 'Starting Hall Charges',
+    value: '₹2,000',
   },
 
   {

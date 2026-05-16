@@ -25,18 +25,18 @@ const highlights = [
   {
     icon: ShieldCheck,
     title: 'Trusted Hospitality',
-    desc: 'Delivering reliable service, comfort and guest satisfaction since 2014.',
+    desc: 'Delivering reliable service, comfort and guest satisfaction since 2023.',
   },
 ];
 
 const stats = [
   {
-    number: '10+',
+    number: '3+',
     label: 'Years of Excellence',
     icon: Award,
   },
   {
-    number: '250+',
+    number: '350+',
     label: 'Marriage Hall Capacity',
     icon: Users,
   },
@@ -115,7 +115,7 @@ export default function About() {
 
               <div className="flex items-end gap-2">
                 <span className="text-5xl font-bold text-amber-300">
-                  10+
+                  3+
                 </span>
 
                 <span className="text-white/70 text-sm mb-1">
@@ -153,7 +153,7 @@ export default function About() {
 
             {/* Description */}
             <p className="text-white/75 text-lg leading-relaxed mb-6">
-              Since 2014, Hotel Amritwan has been offering guests a premium
+              Since 2023, Hotel Amritwan has been offering guests a premium
               blend of comfort, convenience, and warm hospitality. Located on
               NH2 near Barhi Thana, we provide the perfect destination for
               travelers, families, business visitors, and celebrations.

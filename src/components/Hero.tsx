@@ -99,7 +99,7 @@ export default function Hero() {
               </div>
 
               <div className="bg-white/5 border border-white/10 backdrop-blur-md rounded-2xl p-5 text-center">
-                <h3 className="text-3xl font-bold text-amber-400">250+</h3>
+                <h3 className="text-3xl font-bold text-amber-400">350+</h3>
                 <p className="text-white/70 text-sm mt-1">Hall Capacity</p>
               </div>
 
